@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Progressify/Pods-Progressify-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CoreCharts/CoreCharts.framework
+${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework
+${BUILT_PRODUCTS_DIR}/Shapes/Shapes.framework

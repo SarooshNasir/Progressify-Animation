@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1765AD8758DD6F23F672F5F1 /* Pods_Progressify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3932BB8A76CF4D865A058ED3 /* Pods_Progressify.framework */; };
+		6A6721B52577649B005972F6 /* TwoRingProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6721B42577649B005972F6 /* TwoRingProgressBar.swift */; };
+		6A6721B72577CEC0005972F6 /* shapesModification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6721B62577CEC0005972F6 /* shapesModification.swift */; };
 		6A6865CB25762A2B007B90D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6865CA25762A2B007B90D7 /* AppDelegate.swift */; };
 		6A6865CD25762A2B007B90D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6865CC25762A2B007B90D7 /* SceneDelegate.swift */; };
 		6A6865CF25762A2B007B90D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6865CE25762A2B007B90D7 /* ViewController.swift */; };
@@ -14,6 +17,11 @@
 		6A6865D425762A2F007B90D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A6865D325762A2F007B90D7 /* Assets.xcassets */; };
 		6A6865D725762A2F007B90D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6865D525762A2F007B90D7 /* LaunchScreen.storyboard */; };
 		6A6865E225762A2F007B90D7 /* ProgressifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6865E125762A2F007B90D7 /* ProgressifyTests.swift */; };
+		6A6865EF2576399B007B90D7 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6865EE2576399B007B90D7 /* ProgressBar.swift */; };
+		6A6865F125766821007B90D7 /* CircularView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A6865F025766821007B90D7 /* CircularView.xib */; };
+		6AFECF702578D6D0003859D7 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFECF6F2578D6D0003859D7 /* secondViewController.swift */; };
+		6AFECF7225790C4C003859D7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFECF7125790C4C003859D7 /* ThirdViewController.swift */; };
+		8CB93F35399ED9E9B51C2788 /* Pods_ProgressifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6486AFCB88421F5AC3E1C114 /* Pods_ProgressifyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0105F5A3EBD8F551D42F7AF1 /* Pods-Progressify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Progressify.debug.xcconfig"; path = "Target Support Files/Pods-Progressify/Pods-Progressify.debug.xcconfig"; sourceTree = "<group>"; };
+		3932BB8A76CF4D865A058ED3 /* Pods_Progressify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Progressify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		457B115D70895A682547EE5A /* Pods-ProgressifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressifyTests.release.xcconfig"; path = "Target Support Files/Pods-ProgressifyTests/Pods-ProgressifyTests.release.xcconfig"; sourceTree = "<group>"; };
+		6486AFCB88421F5AC3E1C114 /* Pods_ProgressifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6721B42577649B005972F6 /* TwoRingProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoRingProgressBar.swift; sourceTree = "<group>"; };
+		6A6721B62577CEC0005972F6 /* shapesModification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapesModification.swift; sourceTree = "<group>"; };
 		6A6865C725762A2B007B90D7 /* Progressify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Progressify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6865CA25762A2B007B90D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A6865CC25762A2B007B90D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +52,12 @@
 		6A6865DD25762A2F007B90D7 /* ProgressifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6865E125762A2F007B90D7 /* ProgressifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressifyTests.swift; sourceTree = "<group>"; };
 		6A6865E325762A2F007B90D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A6865EE2576399B007B90D7 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		6A6865F025766821007B90D7 /* CircularView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircularView.xib; sourceTree = "<group>"; };
+		6AFECF6F2578D6D0003859D7 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		6AFECF7125790C4C003859D7 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		94D981AE9A86A6D9BA7AD427 /* Pods-ProgressifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressifyTests.debug.xcconfig"; path = "Target Support Files/Pods-ProgressifyTests/Pods-ProgressifyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9EE38E3B16C35343367023B /* Pods-Progressify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Progressify.release.xcconfig"; path = "Target Support Files/Pods-Progressify/Pods-Progressify.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1765AD8758DD6F23F672F5F1 /* Pods_Progressify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +73,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB93F35399ED9E9B51C2788 /* Pods_ProgressifyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5102B44263B3E76FEEC3F289 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3932BB8A76CF4D865A058ED3 /* Pods_Progressify.framework */,
+				6486AFCB88421F5AC3E1C114 /* Pods_ProgressifyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6A6865BE25762A2B007B90D7 = {
 			isa = PBXGroup;
 			children = (
 				6A6865C925762A2B007B90D7 /* Progressify */,
 				6A6865E025762A2F007B90D7 /* ProgressifyTests */,
 				6A6865C825762A2B007B90D7 /* Products */,
+				972C11DE57D021BE25D29CE7 /* Pods */,
+				5102B44263B3E76FEEC3F289 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,7 +115,13 @@
 				6A6865CA25762A2B007B90D7 /* AppDelegate.swift */,
 				6A6865CC25762A2B007B90D7 /* SceneDelegate.swift */,
 				6A6865CE25762A2B007B90D7 /* ViewController.swift */,
+				6A6721B62577CEC0005972F6 /* shapesModification.swift */,
+				6A6865EE2576399B007B90D7 /* ProgressBar.swift */,
 				6A6865D025762A2B007B90D7 /* Main.storyboard */,
+				6AFECF7125790C4C003859D7 /* ThirdViewController.swift */,
+				6AFECF6F2578D6D0003859D7 /* secondViewController.swift */,
+				6A6721B42577649B005972F6 /* TwoRingProgressBar.swift */,
+				6A6865F025766821007B90D7 /* CircularView.xib */,
 				6A6865D325762A2F007B90D7 /* Assets.xcassets */,
 				6A6865D525762A2F007B90D7 /* LaunchScreen.storyboard */,
 				6A6865D825762A2F007B90D7 /* Info.plist */,
@@ -99,6 +138,17 @@
 			path = ProgressifyTests;
 			sourceTree = "<group>";
 		};
+		972C11DE57D021BE25D29CE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0105F5A3EBD8F551D42F7AF1 /* Pods-Progressify.debug.xcconfig */,
+				F9EE38E3B16C35343367023B /* Pods-Progressify.release.xcconfig */,
+				94D981AE9A86A6D9BA7AD427 /* Pods-ProgressifyTests.debug.xcconfig */,
+				457B115D70895A682547EE5A /* Pods-ProgressifyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A6865E625762A2F007B90D7 /* Build configuration list for PBXNativeTarget "Progressify" */;
 			buildPhases = (
+				6030ED2EAF290020405AD192 /* [CP] Check Pods Manifest.lock */,
 				6A6865C325762A2B007B90D7 /* Sources */,
 				6A6865C425762A2B007B90D7 /* Frameworks */,
 				6A6865C525762A2B007B90D7 /* Resources */,
+				308F3485AE93342DA65AD64A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A6865E925762A2F007B90D7 /* Build configuration list for PBXNativeTarget "ProgressifyTests" */;
 			buildPhases = (
+				966CDA5091A0CCFD8C85054F /* [CP] Check Pods Manifest.lock */,
 				6A6865D925762A2F007B90D7 /* Sources */,
 				6A6865DA25762A2F007B90D7 /* Frameworks */,
 				6A6865DB25762A2F007B90D7 /* Resources */,
+				BB7F08A5C253768B9AEB2DA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A6865D725762A2F007B90D7 /* LaunchScreen.storyboard in Resources */,
+				6A6865F125766821007B90D7 /* CircularView.xib in Resources */,
 				6A6865D425762A2F007B90D7 /* Assets.xcassets in Resources */,
 				6A6865D225762A2B007B90D7 /* Main.storyboard in Resources */,
 			);
@@ -195,13 +250,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		308F3485AE93342DA65AD64A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Progressify/Pods-Progressify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Progressify/Pods-Progressify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Progressify/Pods-Progressify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6030ED2EAF290020405AD192 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Progressify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		966CDA5091A0CCFD8C85054F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProgressifyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB7F08A5C253768B9AEB2DA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProgressifyTests/Pods-ProgressifyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProgressifyTests/Pods-ProgressifyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProgressifyTests/Pods-ProgressifyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A6865C325762A2B007B90D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6A6865CF25762A2B007B90D7 /* ViewController.swift in Sources */,
+				6AFECF702578D6D0003859D7 /* secondViewController.swift in Sources */,
 				6A6865CB25762A2B007B90D7 /* AppDelegate.swift in Sources */,
+				6A6865EF2576399B007B90D7 /* ProgressBar.swift in Sources */,
+				6A6721B72577CEC0005972F6 /* shapesModification.swift in Sources */,
+				6A6721B52577649B005972F6 /* TwoRingProgressBar.swift in Sources */,
+				6AFECF7225790C4C003859D7 /* ThirdViewController.swift in Sources */,
 				6A6865CD25762A2B007B90D7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +501,7 @@
 		};
 		6A6865E725762A2F007B90D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0105F5A3EBD8F551D42F7AF1 /* Pods-Progressify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -377,6 +519,7 @@
 		};
 		6A6865E825762A2F007B90D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EE38E3B16C35343367023B /* Pods-Progressify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +537,7 @@
 		};
 		6A6865EA25762A2F007B90D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D981AE9A86A6D9BA7AD427 /* Pods-ProgressifyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +559,7 @@
 		};
 		6A6865EB25762A2F007B90D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 457B115D70895A682547EE5A /* Pods-ProgressifyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

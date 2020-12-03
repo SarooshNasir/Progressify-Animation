@@ -1,0 +1,6 @@
+framework module Shapes {
+  umbrella header "Shapes-umbrella.h"
+
+  export *
+  module * { export * }
+}

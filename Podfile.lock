@@ -1,0 +1,24 @@
+PODS:
+  - CoreCharts (1.0.7)
+  - MBCircularProgressBar (0.3.5)
+  - Shapes (1.0.2)
+
+DEPENDENCIES:
+  - CoreCharts
+  - MBCircularProgressBar (~> 0.3)
+  - Shapes (~> 1.0.2)
+
+SPEC REPOS:
+  trunk:
+    - CoreCharts
+    - MBCircularProgressBar
+    - Shapes
+
+SPEC CHECKSUMS:
+  CoreCharts: 272212b61c5f84406eaf1d67ba47891f3aaf44db
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  Shapes: 0e67e4324ce4a3cd0d4ca9431bd26387a677877f
+
+PODFILE CHECKSUM: 85502987fdb50c1d8ad8eeaa854326dcf7aab02e
+
+COCOAPODS: 1.10.0
